@@ -28,8 +28,8 @@ class Counter extends Component {
           <div className="col-lg-6 mx-auto my-5 p-5 shadow text-center">
             <h1>{this.state.nam}</h1>
             <h1>{this.state.count}</h1>
-            <button onClick={this.inc} className="btn btn-outline-success mt-3">+</button>
-            <button onClick={this.dec} className="btn btn-outline-warning mt-3 mx-3">-</button>
+            <button onClick={this.inc} className="btn btn-outline-success mt-3 bolder">+</button>
+            <button onClick={this.dec} className="btn btn-outline-warning mt-3 mx-3 bolder">-</button>
           </div>
         </>
       );
